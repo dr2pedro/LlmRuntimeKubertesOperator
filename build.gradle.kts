@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation("io.javaoperatorsdk:operator-framework:5.2.1")
+    implementation("io.fabric8:kubernetes-client:7.4.0")
     testImplementation(kotlin("test"))
 }
 
