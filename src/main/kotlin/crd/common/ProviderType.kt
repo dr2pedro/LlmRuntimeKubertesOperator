@@ -1,4 +1,7 @@
 package com.codeplaydata.crd.common
 
-class ProviderType {
+enum class ProviderType {
+    OLLAMA,
+    OPENAI,
+    GOOGLE_GEMINI
 }

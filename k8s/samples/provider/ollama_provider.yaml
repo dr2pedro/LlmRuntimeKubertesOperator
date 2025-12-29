@@ -1,1 +1,8 @@
-## TODO
+apiVersion: llmruntimeop.codeplaydata.com/v1alpha1
+kind: LlmProvider
+metadata:
+  name: ollama-provider
+spec:
+  type: OLLAMA
+  options:
+    foo: bar
